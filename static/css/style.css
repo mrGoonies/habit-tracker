@@ -1,5 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Courier Prime', monospace;
 }
+
+header {
+  && .header-base__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #192655;
+    color: #F3F0CA;
+
+    && h1 a {
+      color: #F3F0CA;
+      text-decoration: none;
+    }
+    && a {
+      color: #F3F0CA;
+      text-decoration: none;
+    }
+
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  padding: 1rem;
+  background-color: #192655;
+  color: #F3F0CA;
+
+  && .footer__icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+
+    && a {
+      text-decoration: none;
+    }
+  }
+
+
+}
+
+

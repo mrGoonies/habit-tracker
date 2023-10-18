@@ -2,6 +2,13 @@
 
 {% block main_content %}
 <main class="main-index">
-  
+    <section class="main-index__section">
+        {% for _list in list_of_habits %}
+        <ul>
+            <li>{{ _list }}</li>
+        </ul>
+        {% endfor %}
+    </section>
+
 </main>
 {% endblock %}

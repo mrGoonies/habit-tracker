@@ -2,8 +2,11 @@
 
 {% block main_content %}
 <main class="main-habit">
-    <form action="#" class="">
-
+    <form class="main-habit__form" method="POST">
+        <div class="mb-3">
+            <input type="text" class="form-control" id="habit" name="habit" placeholder="habit name">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </main>
 {% endblock %}
