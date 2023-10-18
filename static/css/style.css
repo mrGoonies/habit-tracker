@@ -28,6 +28,27 @@ header {
   }
 }
 
+/*Add habit page*/
+.main-habit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: #3876BF;
+  flex-direction: column;
+  height: 100%;
+
+  && h2 {
+    color: #F3F0CA;
+    margin-bottom: 1rem;
+  }
+
+  }
+
+
+}
+
+
 footer {
   display: flex;
   justify-content: space-around;

@@ -2,11 +2,12 @@
 
 {% block main_content %}
 <main class="main-habit">
-    <form class="main-habit__form" method="POST">
+    <h2>Add Habit 🔥</h2>
+    <form class="main-habit__form " method="POST">
         <div class="mb-3">
-            <input type="text" class="form-control" id="habit" name="habit" placeholder="habit name">
+            <textarea type="text" class="form-control" id="habit" name="habit" placeholder="habit name"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn" style="color: #F3F0CA">Submit</button>
     </form>
 </main>
 {% endblock %}
